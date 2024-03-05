@@ -1,0 +1,170 @@
+body {
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color:white;
+    color: black;
+}   
+header {
+    display: flex;
+    justify-content: center;
+    background-color: #080537;
+    padding: 10px;
+    color: WHITE;
+}
+header a {
+    color: #ffffff;
+    text-decoration: none;
+    padding: 10px 20px;
+    margin: 0 10px;
+    font-weight: bold;
+    transition: color 0.3s ease;
+}
+header a:hover {
+    color: #737981;
+}
+
+#mainnav{
+    display: flex;
+    flex-direction: row;
+    justify-content: left;
+}
+
+#SIDENAV{
+    margin-top: 0px;
+    display: flex;
+    flex-direction: column;
+    justify-content: left;
+    background-color: #556585;
+    color: white;    
+    padding: 0px;
+    height: 43.2vw;
+}
+#SIDENAV a {
+    color: #ffffff;
+    text-decoration: none;
+    padding: 10px ;
+    font-weight: bold;
+    transition: color 0.3s ease;
+    width: 110.9px
+}
+#SIDENAV a:hover{
+    color:gray;
+    background-color: black;
+    transition: color 0.3s ease;
+}
+
+nav {
+    display: flex;
+    justify-content: left;
+    background-color: #574135;
+    padding: 0px;
+    height: 50px;
+    width: 91.2vw;
+}
+nav a {
+    color: #ffffff;
+    text-decoration: none;
+    padding: 10px 20px ;
+    margin: 0 10px;
+    font-weight:bold;
+    transition: color 0.3s ease;
+}
+nav a:hover {
+    color: #737981;
+    background-color: black;
+}
+
+#content{
+    display: flex;
+    flex-direction: column;
+}
+
+
+#main{
+    margin-top: 10px;
+    margin-left: 10px;
+    margin-right: 10px;
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row;
+}
+
+#mainsub1{
+    margin-top: 20px;
+    border-style: solid;
+    border-width: 3px;
+    border-color: black;
+    border-radius: 10px;
+    background-color: rgba(237, 237, 215, 0.737);
+    height: 36vw;
+    width: 58vw;
+    display: flex;
+    flex-direction: column;
+}
+
+#personal_information{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-left:10px;
+    
+}
+#profile{
+    margin-top: 40px;
+}
+
+#mainsub2{
+    margin-top: 20px;
+    border-style: solid;
+    border-width: 3px;
+    border-color: black;
+    border-radius: 10px;
+    background-color: rgba(237, 237, 215, 0.737);
+    height: 36vw;
+    width: 30vw;
+}
+#cardpic{
+    height: 250px;
+    width: 410px;
+    margin: 15px;
+    border-radius: 10px;
+}
+#carddetail{
+    font-size: 10px;
+}
+#buttonresetpassword{
+     background-color: #888a8a; 
+  border: none;
+  padding: 0px;
+  text-align:center;
+  text-decoration: none;
+  font-size: 10 px;
+  height: 30px;
+  width: 115px;
+  border-radius: 25px;
+}
+#reset_password{
+    text-align: center;
+    text-decoration: none;
+    color: black;
+}
+#buttonresetpassword a:hover{
+    color: white;
+    text-decoration: none;
+}
+
+#search_bar{
+    margin-top: 8px;
+    margin-left: 5px;
+    margin-right: 5px;
+    border-radius: 10px;
+    height: 30px;
+    width: 110px;
+}
+
+
+
+
+
+
